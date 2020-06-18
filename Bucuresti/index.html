@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bucuresti</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="crossorigin=""/>                                      
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="crossorigin=""></script>
+        <link href="https://fonts.googleapis.com/css2?family=Domine&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<script src="script.js" defer></script>    
+	</head>
+	<body>
+        <div class="main">
+            <header>
+                <h1 id="title">Bucureștiul în culori</h1>
+                <div class="img-header"></div>    
+            </header>
+            <section class="description">
+                <div class="profile">
+                    <div class="head">
+                        <div class="profile-image">
+                            <img src="Images/anca.jpg" id="myPicture" alt="Profile Picture">
+                        </div>
+                        <div class="headline">
+                            <span class="bold">Nume</span><span>: Diaconu Anca-Maria</span></br>
+                            <span class="bold">Vârstă</span><span>: 22</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="about">Sunt o persoană care a decis să facă o schimbare în carieră, trecând de la economie la programare. Mă atrage partea de front-end pentru că implică şi latura estetică, pictura fiind una dintre pasiunile mele. </br>Sunt o iubitoare de natură, iar precum spunea şi Guido Rey, "Poezia vieţii mele este muntele, restul este decât proză".</p>
+                    </div>
+                    <div class="contact ">
+                        <span class="bold">Contact</span><br>
+                        <div class="contact-info">
+                            <span class="phone info"><img class="icon-img" src="Images/telefon.png">0787719254</span>
+                            <a href="mailto:adiaconu41@yahoo.com" class="info"><img class="icon-img"src="Images/mail.png">adiaconu41@yahoo.com</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="map-section">
+                <div class="text-container">
+                    <p class="text">Bucureștiul, asemenea multor orașe din România, este văzut ca un oraș predominant gri și mohorât. De aceea, am hotărât să-l colorăm noi în viile culori ale curcubeului.</p>
+                </div>
+                <div id="map"></div>
+            </section>
+        </div>	
+	</body>	
+</html>
